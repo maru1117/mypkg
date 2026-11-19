@@ -1,0 +1,64 @@
+[0.000000] (-) TimerEvent: {}
+[0.000703] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.000906] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.066936] (-) TimerEvent: {}
+[0.167522] (-) TimerEvent: {}
+[0.268118] (-) TimerEvent: {}
+[0.368383] (-) TimerEvent: {}
+[0.468922] (-) TimerEvent: {}
+[0.569499] (-) TimerEvent: {}
+[0.670055] (-) TimerEvent: {}
+[0.770429] (-) TimerEvent: {}
+[0.870878] (-) TimerEvent: {}
+[0.971244] (-) TimerEvent: {}
+[0.984961] (mypkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/mypkg', 'build', '--build-base', '/home/maru17/ros2_ws/src/mypkg/build/mypkg/build', 'install', '--record', '/home/maru17/ros2_ws/src/mypkg/build/mypkg/install.log', '--install-scripts', '$base/lib/mypkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/maru17/ros2_ws/src/mypkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'maru17', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/maru17', 'OLDPWD': '/home/maru17/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/maru17/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'maru17', 'NAME': 'marumonoPC', 'WSL_INTEROP': '/run/WSL/67296_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/maru17/.local/bin:/opt/ros/jazzy/bin:/home/maru17/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Users/taket/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/taket/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/taket/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/maru17/ros2_ws/install/mypkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'PWD': '/home/maru17/ros2_ws/src/mypkg/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/maru17/ros2_ws/src/mypkg/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maru17/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages:/home/maru17/ros2_ws/install/mypkg/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': ''}), 'shell': False}
+[1.071343] (-) TimerEvent: {}
+[1.171680] (-) TimerEvent: {}
+[1.237255] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.238985] (mypkg) StdoutLine: {'line': b'creating build/mypkg/mypkg.egg-info\n'}
+[1.271848] (-) TimerEvent: {}
+[1.295383] (mypkg) StdoutLine: {'line': b'writing build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[1.296467] (mypkg) StdoutLine: {'line': b'writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[1.296772] (mypkg) StdoutLine: {'line': b'writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[1.297254] (mypkg) StdoutLine: {'line': b'writing requirements to build/mypkg/mypkg.egg-info/requires.txt\n'}
+[1.297944] (mypkg) StdoutLine: {'line': b'writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[1.298061] (mypkg) StdoutLine: {'line': b"writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.334590] (mypkg) StdoutLine: {'line': b"reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.335282] (mypkg) StdoutLine: {'line': b"writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.335531] (mypkg) StdoutLine: {'line': b'running build\n'}
+[1.335947] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[1.336345] (mypkg) StdoutLine: {'line': b'creating /home/maru17/ros2_ws/src/mypkg/build/mypkg/build\n'}
+[1.339322] (mypkg) StdoutLine: {'line': b'creating /home/maru17/ros2_ws/src/mypkg/build/mypkg/build/lib\n'}
+[1.340255] (mypkg) StdoutLine: {'line': b'creating /home/maru17/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[1.340486] (mypkg) StdoutLine: {'line': b'copying mypkg/__init__.py -> /home/maru17/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[1.340733] (mypkg) StdoutLine: {'line': b'copying mypkg/listener.py -> /home/maru17/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[1.340925] (mypkg) StdoutLine: {'line': b'copying mypkg/talker.py -> /home/maru17/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg\n'}
+[1.341295] (mypkg) StdoutLine: {'line': b'running install\n'}
+[1.347287] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.364367] (mypkg) StdoutLine: {'line': b'creating /home/maru17/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg\n'}
+[1.364716] (mypkg) StdoutLine: {'line': b'copying /home/maru17/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/maru17/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg\n'}
+[1.365059] (mypkg) StdoutLine: {'line': b'copying /home/maru17/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/maru17/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg\n'}
+[1.365178] (mypkg) StdoutLine: {'line': b'copying /home/maru17/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/maru17/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg\n'}
+[1.367625] (mypkg) StdoutLine: {'line': b'byte-compiling /home/maru17/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg/__init__.py to __init__.cpython-312.pyc\n'}
+[1.370357] (mypkg) StdoutLine: {'line': b'byte-compiling /home/maru17/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg/listener.py to listener.cpython-312.pyc\n'}
+[1.371456] (mypkg) StdoutLine: {'line': b'byte-compiling /home/maru17/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg/talker.py to talker.cpython-312.pyc\n'}
+[1.371688] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[1.371916] (-) TimerEvent: {}
+[1.372163] (mypkg) StdoutLine: {'line': b'creating /home/maru17/ros2_ws/src/mypkg/install/mypkg/share/ament_index\n'}
+[1.373441] (mypkg) StdoutLine: {'line': b'creating /home/maru17/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index\n'}
+[1.374677] (mypkg) StdoutLine: {'line': b'creating /home/maru17/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages\n'}
+[1.375175] (mypkg) StdoutLine: {'line': b'copying resource/mypkg -> /home/maru17/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages\n'}
+[1.375392] (mypkg) StdoutLine: {'line': b'copying package.xml -> /home/maru17/ros2_ws/src/mypkg/install/mypkg/share/mypkg\n'}
+[1.375567] (mypkg) StdoutLine: {'line': b'creating /home/maru17/ros2_ws/src/mypkg/install/mypkg/share/mypkg/launch\n'}
+[1.376815] (mypkg) StdoutLine: {'line': b'copying launch/talk_listen.launch.py -> /home/maru17/ros2_ws/src/mypkg/install/mypkg/share/mypkg/launch\n'}
+[1.376912] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.395281] (mypkg) StdoutLine: {'line': b'Copying build/mypkg/mypkg.egg-info to /home/maru17/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg-0.0.0-py3.12.egg-info\n'}
+[1.399750] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.472097] (-) TimerEvent: {}
+[1.527551] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/maru17/ros2_ws/src/mypkg/install/mypkg/lib/mypkg\n'}
+[1.530130] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/maru17/ros2_ws/src/mypkg/install/mypkg/lib/mypkg\n'}
+[1.530476] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/maru17/ros2_ws/src/mypkg/build/mypkg/install.log'\n"}
+[1.569045] (mypkg) CommandEnded: {'returncode': 0}
+[1.572192] (-) TimerEvent: {}
+[1.585649] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[1.586685] (-) EventReactorShutdown: {}
